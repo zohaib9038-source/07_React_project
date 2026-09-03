@@ -1,0 +1,16 @@
+.movieDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-inline: 4rem;
+  flex-wrap: wrap;
+}
+.movieDetails img {
+  width: 50% !important;
+}
+@media (max-width: 600px) {
+  .movieDetails img {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
+  padding-top: 0.75rem;
+  gap: 1rem;
+  padding-inline: 3.5rem;
+  margin-bottom: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header img {
+  width: 50px;
+  height: 50px;
+}
+header form {
+  width: 100%;
+}
+header form input {
+  background-color: #2b2525;
+  padding-block: 7px;
+  width: 100%;
+  border-radius: 10px;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding-left: 3rem;
+  color: white;
+}
+.backbtn {
+  margin-left: 4.5rem;
+  padding-block: 0.425em;
+  cursor: pointer;
+  padding-inline: 1.3rem;
+  background-color: rgb(82, 82, 86);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+header form input:focus {
+  border: 2px solid rgb(82, 82, 86);
+}
+form span {
+  position: absolute;
+  cursor: pointer;
+  display: none;
+  right: 0.5rem; /* 8px */
+}
+header .WishlistContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header .WishlistContainer button {
+  background-color: #2b2525;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+}
+.inputContainer {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+header .search {
+  position: absolute;
+  left: 0.625rem;
+}
+input .container {
+  max-width: 1400px;
+  margin-inline: auto;
+}
+.latestMovie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-inline: 4rem;
+}
+.moviecard {
+  max-width: 300px;
+  position: relative;
+  background-color: #191a1d;
+  padding-bottom: 3rem;
+  margin-bottom: 3.6rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.youtubelogo {
+  position: absolute;
+  top: 14%;
+  left: 45%;
+}
+.moviesDescription {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 15px;
+  padding-top: 1rem;
+  padding-bottom: 0.33rem;
+  /* max-height: 64%; */
+  padding-inline: 0.45rem;
+  color: white;
+}
+.title {
+  font-size: 1.26rem;
+}
+.discription {
+  font-size: 1rem;
+}
